@@ -1,6 +1,6 @@
 # Plots-in-R
 
-**#Weight Loss Dataset**
+**Weight Loss Dataset**
 
 1. Histogram: depicting the weight loss by groups within 3 months
 R Function: ggplot(data.long)+ geom_histogram(mapping=aes(x=WeightLoss,fill=factor(group)))+
