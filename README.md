@@ -27,7 +27,7 @@ scale_fill_discrete(name = "Group")
 ![image](https://user-images.githubusercontent.com/15854238/147429058-118c3f92-da2a-4df7-ba0d-ed7683a3cb16.png)
 
 
-**3. Scatter Plot: **Weight Loss vs Self Esteem Month 2 and 3
+**3. Scatter Plot:** Weight Loss vs Self Esteem Month 2 and 3
       
 ![image](https://user-images.githubusercontent.com/15854238/147429064-160c089a-651e-4d65-bfbb-b5172e29a3a7.png)
 
