@@ -2,8 +2,9 @@
 
 **Weight Loss Dataset**
 
-**1. Histogram:** depicting the weight loss by groups within 3 months
-R Function: ggplot(data.long)+ geom_histogram(mapping=aes(x=WeightLoss,fill=factor(group)))+
+**1. Histogram:** depicting the weight loss by groups within 3 months.
+
+**R Function:** ggplot(data.long)+ geom_histogram(mapping=aes(x=WeightLoss,fill=factor(group)))+
 ggtitle("Weight Loss by Group within 3 months")+
 scale_x_continuous(breaks = 1:10)+
 geom_line( mapping=aes(x=WeightLoss,y=SelfEsteemScore,group = WeightLoss))+
@@ -20,7 +21,7 @@ scale_fill_discrete(name = "Group")
 
 
 **2. Scatter plot:** Weight Loss vs Self Esteem Month 1
-      R Function: ggplot(weight_loss,aes(x=wl1, y=se1)) + 
+      **R Function:** ggplot(weight_loss,aes(x=wl1, y=se1)) + 
                             geom_point(aes(color=group)) + 
                             facet_grid(cols = vars(group))
 		 
@@ -36,7 +37,7 @@ scale_fill_discrete(name = "Group")
 
 **4. Boxplot:** Weight Loss vs. Self-Esteem - Month 1
 
-     R Function: ggplot() + 
+     **R Function:** ggplot() + 
      geom_boxplot(data= weight_loss,mapping = aes(wl1,group))+
      geom_boxplot(data= weight_loss,mapping = aes(se1,group), fill="green4")
      
@@ -44,7 +45,7 @@ scale_fill_discrete(name = "Group")
 	 
 
 5. Added a new variable to the long.data, with the subjects’s weight in kilograms (kg) (1 kg = 2.204 pounds).
-     R Function : mutate (weight_kg = WeightLoss/2.204) #R Function used to create a variable
+     **R Function :** mutate (weight_kg = WeightLoss/2.204) #R Function used to create a variable
       
 ![image](https://user-images.githubusercontent.com/15854238/147429100-cacf5fe6-1cd3-4e7f-8124-61d962464922.png)
 
