@@ -2,7 +2,7 @@
 
 **Weight Loss Dataset**
 
-1. Histogram: depicting the weight loss by groups within 3 months
+**1. Histogram:** depicting the weight loss by groups within 3 months
 R Function: ggplot(data.long)+ geom_histogram(mapping=aes(x=WeightLoss,fill=factor(group)))+
 ggtitle("Weight Loss by Group within 3 months")+
 scale_x_continuous(breaks = 1:10)+
@@ -19,7 +19,7 @@ scale_fill_discrete(name = "Group")
 
 
 
-2. Scatter plot: Weight Loss vs Self Esteem Month 1
+**2. Scatter plot:** Weight Loss vs Self Esteem Month 1
       R Function: ggplot(weight_loss,aes(x=wl1, y=se1)) + 
                             geom_point(aes(color=group)) + 
                             facet_grid(cols = vars(group))
@@ -27,14 +27,14 @@ scale_fill_discrete(name = "Group")
 ![image](https://user-images.githubusercontent.com/15854238/147429058-118c3f92-da2a-4df7-ba0d-ed7683a3cb16.png)
 
 
-3. Scatter Plot: Weight Loss vs Self Esteem Month 2 and 3
+**3. Scatter Plot: **Weight Loss vs Self Esteem Month 2 and 3
       
 ![image](https://user-images.githubusercontent.com/15854238/147429064-160c089a-651e-4d65-bfbb-b5172e29a3a7.png)
 
 ![image](https://user-images.githubusercontent.com/15854238/147429077-9bf11801-8902-4cf7-b317-207e27ab7ef6.png)
 
 
-4. Boxplot: Weight Loss vs. Self-Esteem - Month 1
+**4. Boxplot:** Weight Loss vs. Self-Esteem - Month 1
 
      R Function: ggplot() + 
      geom_boxplot(data= weight_loss,mapping = aes(wl1,group))+
