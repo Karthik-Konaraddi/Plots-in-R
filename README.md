@@ -47,7 +47,7 @@ scale_fill_discrete(name = "Group")
 
 **5. Added a new variable to the long.data, with the subjects’s weight in kilograms (kg) (1 kg = 2.204 pounds).**
 
-**R Function :mutate (weight_kg = WeightLoss/2.204) #R Function used to create a variable
+**R Function :mutate (weight_kg = WeightLoss/2.204) #R Function used to create a variable**
       
 ![image](https://user-images.githubusercontent.com/15854238/147429100-cacf5fe6-1cd3-4e7f-8124-61d962464922.png)
 
